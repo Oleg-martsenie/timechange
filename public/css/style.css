@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+:root {
+    --morning-background:#8ca0e7;
+    --evening-background:#f0c26e;
+    --night-background:#454545;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #eee;
+}
+
+header {
+    text-align: center;
+    color: #FFF;
+    margin: 2rem 0;
+}
+
+section {
+    background-color: #FFF;
+    width: 50%;
+    border-radius: .5rem;
+    box-shadow: .1rem .2rem .8rem rgba(0,0,0,.6);
+    margin: 0 auto;
+    padding: 2rem 9%;
+
+}
+
+.global {
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section .area2 {
+    width: 88rem;
+}
+
+footer {
+    margin: 2rem 0;
+    color: #FFF;
+    text-align: center;
+    margin-top: 20%;
+}
+
+footer a {
+    color: #2c2c2c;
+}
+
+footer a:hover {
+    color: var(--night-background);
+    text-decoration: underline;
+}
+
+img {
+    margin: 3rem 0;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.morning {
+    background-color: var(--morning-background);
+    color: #111;
+}
+
+.evening {
+    border-color: var(--evening-background);
+    color: #222;
+}
+
+.night {
+    background-color: var(--night-background);
+    color: #000;
+}
